@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://narahariparvatha.com/sitemap.xml",
+    sitemap: "narahariparvatha.vercel.app/sitemap.xml",
   };
 }

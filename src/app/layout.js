@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://narahariparvatha.com"),
+  metadataBase: new URL("narahariparvatha.vercel.app"),
   title: {
     default: "Narahari Parvatha Sadashiva Temple |Narahari Parvatha ",
     template: "%s | Narahari Parvatha Temple",
@@ -32,11 +32,11 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://narahariparvatha.com",
+    url: "narahariparvatha.vercel.app",
     siteName: "Narahari Parvatha Sadashiva Temple",
     images: [
       {
-        url: "/images/temple-image.png",
+        url: "/images/preview-image.png",
         width: 1200,
         height: 630,
         alt: "Narahari Parvatha Hill View",
