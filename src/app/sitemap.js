@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "narahariparvatha.vercel.app";
+  const baseUrl = "https://narahariparvatha.vercel.app";
 
   return [
     {
