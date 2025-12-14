@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Aati Amavasye Teerthasnana & Festivals",
@@ -63,9 +64,11 @@ export default function FestivalsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
         <div className="absolute bottom-10 left-0 w-full text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 drop-shadow-lg">
-            Sacred Celebrations
-          </h1>
+          <Link href="/festivals">
+            <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 drop-shadow-lg">
+              Sacred Celebrations
+            </h1>
+          </Link>
           <p className="text-lg md:text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
             Experience the divine energy during major festivals.
           </p>

@@ -6,7 +6,7 @@ import LocationComponent from "@/components/LocationComponent";
 export const metadata = {
   title: "Narahari Parvatha Sadashiva Temple | Narahari Parvatha",
   description:
-    "Visit Narahari Parvatha in Bantwal. Climb 333 steps to reach Lord Sadashiva. A historic spot where Arjuna and Krishna performed penance.",
+    "Narahari Parvatha Sadashiva Temple is a historic pilgrimage center located 1,000 feet above sea level in Bantwal, Dakshina Kannada. Known as the 'Kailasa of the Earth,' the hill features 333 stone steps and four sacred Teertha ponds—Shanka, Chakra, Gadha, and Padma—created by Lord Krishna and Arjuna during the Mahabharata era. It is a primary location for the holy Aati Amavasye Teerthasnana and Shivarathri worship.",
   keywords: [
     "Narahari Parvatha",
     "Sadashiva Temple Bantwal",

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "History & Mythology",
@@ -51,9 +52,11 @@ export default function HistoryPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
         <div className="absolute bottom-10 left-0 w-full text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 drop-shadow-lg">
-            History & Mythology
-          </h1>
+          <Link href="/history">
+            <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 drop-shadow-lg">
+              History & Mythology
+            </h1>
+          </Link>
         </div>
       </div>
       <section className="max-w-5xl mx-auto px-6 pb-16 space-y-8 text-lg md:text-xl leading-relaxed text-gray-300 text-justify">

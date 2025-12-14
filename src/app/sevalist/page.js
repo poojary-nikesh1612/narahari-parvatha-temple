@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Seva List & Prices",
@@ -38,9 +39,11 @@ export default function SevaPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
 
         <div className="absolute bottom-10 left-0 w-full text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 drop-shadow-lg">
-            Seva List
-          </h1>
+          <Link href="/sevalist">
+            <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 drop-shadow-lg">
+              Seva List
+            </h1>
+          </Link>
           <p className="text-gray-300 mt-2 text-lg">Offerings & Services</p>
         </div>
       </div>

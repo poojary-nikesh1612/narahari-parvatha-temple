@@ -117,7 +117,7 @@ export default function LocationComponent() {
                     href="tel:9481391204"
                     className="block text-gray-300 hover:text-orange-400 transition-colors"
                   >
-                    Mob: +91 94813 91204
+                    Mob: +91 8277125877
                   </a>
                 </div>
               </div>
