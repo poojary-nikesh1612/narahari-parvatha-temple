@@ -46,9 +46,6 @@ export const metadata = {
       },
     ],
   },
-  icons: {
-    icon: "images/icon.png",
-  },
   robots: {
     index: true,
     follow: true,
