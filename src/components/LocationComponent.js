@@ -1,14 +1,5 @@
 "use client";
-import {
-  MapPin,
-  Phone,
-  Bus,
-  Train,
-  Plane,
-  ExternalLink,
-  FileText,
-} from "lucide-react";
-import Link from "next/link";
+import { MapPin, Phone, Bus, Train, Plane } from "lucide-react";
 
 export default function LocationComponent() {
   return (
@@ -120,15 +111,6 @@ export default function LocationComponent() {
                     Mob: +91 8277125877
                   </a>
                 </div>
-              </div>
-
-              <div className="pt-4">
-                <Link
-                  href="/sevalist"
-                  className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-200 hover:opacity-80 transition-opacity"
-                >
-                  Seva List <FileText size={20} className="text-orange-400" />
-                </Link>
               </div>
             </div>
           </div>

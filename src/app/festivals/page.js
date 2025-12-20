@@ -69,13 +69,10 @@ export default function FestivalsPage() {
               Sacred Celebrations
             </h1>
           </Link>
-          <p className="text-lg md:text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
-            Experience the divine energy during major festivals.
-          </p>
         </div>
       </div>
 
-      <section className="max-w-4xl mx-auto px-6 py-14 text-lg md:text-xl leading-relaxed text-gray-300 text-justify">
+      <section className="max-w-4xl mx-auto px-6 pb-16 text-lg md:text-xl leading-relaxed text-gray-300 text-justify">
         <p>
           Narahari Parvatha comes alive during sacred occasions. Devotees from
           across the district gather here to perform the holy{" "}

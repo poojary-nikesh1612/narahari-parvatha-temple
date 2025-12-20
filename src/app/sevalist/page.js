@@ -27,16 +27,16 @@ export default function SevaPage() {
   ];
 
   return (
-    <main className="bg-black min-h-screen text-white pt-0 pb-10">
+    <main className="bg-black min-h-screen text-white pt-0 pb-20">
       <div className="w-full h-[50vh] md:h-[60vh] relative">
         <Image
           src="/images/temple-image.png"
           alt="Seva List"
           fill
-          className="object-cover opacity-100"
+          className="object-cover opacity-80"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
         <div className="absolute bottom-10 left-0 w-full text-center px-4">
           <Link href="/sevalist">
@@ -44,10 +44,9 @@ export default function SevaPage() {
               Seva List
             </h1>
           </Link>
-          <p className="text-gray-300 mt-2 text-lg">Offerings & Services</p>
         </div>
       </div>
-      <section className="max-w-4xl mx-auto px-6 py-12 text-center text-gray-300 text-lg md:text-xl leading-relaxed">
+      <section className="max-w-4xl mx-auto px-6 pb-16 text-center text-gray-300 text-lg md:text-xl leading-relaxed">
         <p>
           Devotees can perform various Sevas to seek the blessings of the Lord.
           Below is the list of daily and special Sevas available at the temple
