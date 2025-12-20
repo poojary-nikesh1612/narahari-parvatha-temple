@@ -21,7 +21,7 @@ export default function HistoryPage() {
     {
       name: "Shanka Teertha (The Conch)",
       desc: "This pond is shaped like a Shanka (Conch Shell), symbolizing the divine sound of Omkara and purity. It is believed that Lord Krishna created this Teertha to wash away the sins of the devotees. A dip in this water is said to bring peace of mind and clarity.",
-      image: "/images/shanka1.jpg",
+      image: "/images/shanka.jpg",
     },
     {
       name: "Chakra Teertha (The Wheel)",

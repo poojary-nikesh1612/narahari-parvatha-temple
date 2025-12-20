@@ -59,7 +59,7 @@ export default function RootLayout({ children }) {
     name: "Narahari Parvatha Sadashiva Temple",
     description:
       "Ancient Hindu temple located in Bantwal, known as the Kailasa of the Earth. Famous for Aati Amavasye Teerthasnana, 333 steps and 4 Teertha ponds.",
-    image: "https://narahariparvatha.vercel.app/images/preview-image.png",
+    image: "https://narahariparvatha.vercel.app/images/temple-image.png",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Shree Narahari Parvata Sadashiva Temple, Panemangalore",
