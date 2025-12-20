@@ -21,7 +21,7 @@ export default function HistoryPage() {
     {
       name: "Shanka Teertha (The Conch)",
       desc: "This pond is shaped like a Shanka (Conch Shell), symbolizing the divine sound of Omkara and purity. It is believed that Lord Krishna created this Teertha to wash away the sins of the devotees. A dip in this water is said to bring peace of mind and clarity.",
-      image: "/images/shanka.jpg",
+      image: "/images/shanka1.jpg",
     },
     {
       name: "Chakra Teertha (The Wheel)",
@@ -31,12 +31,12 @@ export default function HistoryPage() {
     {
       name: "Gadha Teertha (The Mace)",
       desc: "Shaped like the mighty Mace (Gadha) of Lord Vishnu, this Teertha symbolizes strength and power. It is traditionally believed that this water has medicinal properties, curing physical ailments and granting vitality to those who bathe in it with devotion.",
-      image: "/images/gadha.jpg",
+      image: "/images/gadha.jpeg",
     },
     {
       name: "Padma Teertha (The Lotus)",
       desc: "The final pond is in the shape of a Padma (Lotus), representing spiritual unfolding and purity. It marks the completion of the purification ritual. After visiting the other three ponds, devotees take a final dip here before proceeding to the main temple for Darshan.",
-      image: "/images/padma.jpg",
+      image: "/images/padma.jpeg",
     },
   ];
 
@@ -109,7 +109,7 @@ export default function HistoryPage() {
                 src={pond.image}
                 alt={pond.name}
                 fill
-                className="object-cover "
+                className=" object-center object-fill"
               />
             </div>
 
